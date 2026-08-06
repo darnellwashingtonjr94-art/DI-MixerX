@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  di-mixerx:
+    build: .
+    container_name: di-mixerx-trap
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "8080:8080"
+      - "8888:8888"
+      - "5555:5555"
+    volumes:
+      # Persist the database ledger outside the container
+      - ./data:/app/data
+    environment:
+      - TZ=UTC
