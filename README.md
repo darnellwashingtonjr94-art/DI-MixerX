@@ -1,5 +1,9 @@
 # DI-MixerX
-IMG_0891.png
+
+<p align="center">
+  <img src="IMG_0891.png" alt="Profile Image" width="400"/>
+</p>
+
 ### Core Programming Languages, Core Systems
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
