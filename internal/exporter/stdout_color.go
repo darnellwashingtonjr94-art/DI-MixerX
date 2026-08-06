@@ -3,7 +3,7 @@ package exporter
 import (
 	"fmt"
 
-	"github.com/username/omniping/pkg/telemetry"
+	"github.com/darnellwashingtonjr94-art/omniping/pkg/telemetry"
 )
 
 const (
