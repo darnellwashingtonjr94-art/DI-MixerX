@@ -1,0 +1,17 @@
+# ==============================================================================
+# Repository: DI-MixerX
+# Description: Core dependencies for the DI-MixerX honeypot trap
+# ==============================================================================
+
+# The core modules currently rely entirely on Python's built-in standard libraries.
+# This file is intentionally left blank of active dependencies to keep the 
+# Docker container lightweight, but it must exist to satisfy the GitHub Actions 
+# setup-python@v5 pip caching step.
+
+# ------------------------------------------------------------------------------
+# Future Scaling Dependencies (Uncomment to activate if you expand the project)
+# ------------------------------------------------------------------------------
+
+# Flask==3.0.0      # If migrating away from built-in http.server to a robust web framework
+# requests==2.31.0  # For advanced webhook integrations or external API interactions
+# Faker==20.1.0     # For generating even more complex randomized payload data
