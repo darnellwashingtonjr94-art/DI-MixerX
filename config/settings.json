@@ -1,0 +1,17 @@
+{
+    "trap": {
+        "ports": [80, 8080, 8888, 5555],
+        "tarpit_delay_min": 1.0,
+        "tarpit_delay_max": 5.0,
+        "obfuscate_payloads": true
+    },
+    "firewall": {
+        "max_requests_per_minute": 15,
+        "auto_block": true
+    },
+    "tracking": {
+        "enable_canary": false,
+        "canary_domain": "api.your-tracking-domain.com",
+        "discord_webhook_url": ""
+    }
+}
